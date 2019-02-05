@@ -1,0 +1,54 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Signup, Signin, Forgot password, Terms and Conditions and Contact Us boilerplate just the UI ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthaChowdhury/bp-common.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "signup",
+    "signin",
+    "forgot",
+    "passord",
+    "reset",
+    "password",
+    "tnc",
+    "contact",
+    "us"
+  ],
+  "author": "Austin4Silvers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiddharthaChowdhury/bp-common/issues"
+  },
+  "homepage": "https://github.com/SiddharthaChowdhury/bp-common#readme",
+  "dependencies": {
+    "dangerously-set-inner-html": "^2.0.1",
+    "netlify-cms-widget-mdx": "^0.3.1",
+    "prismjs": "^1.15.0",
+    "react": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mdx-scoped-runtime": "^0.5.1",
+    "netlify-cms": "^2.3.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

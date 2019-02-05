@@ -1,0 +1,16 @@
+backend:
+  name: test-repo
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: Md
+    label: Md
+    folder: mdx
+    slug: "{{slug}}"
+    create: true
+    extension: 'mdx'
+    format: 'frontmatter'
+    fields:
+      - {label: Description, name: desc, widget: mdx, tagname: ""}
