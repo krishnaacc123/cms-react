@@ -83,11 +83,12 @@ export const Code = ({label, children}) => {
     </div>
   ) : null;
   let highlightedCode = null;
+
   try {
     highlightedCode = Prism.highlight(children || "", Prism.languages.javascript, 'javascript');
   }
   catch(err) {
-    console.log(error);
+    console.log(err);
   }
   return (
     <div className="codeblock">
